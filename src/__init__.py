@@ -10,7 +10,7 @@ def run_app(config=AppConfig):
 
     app.config.from_object(AppConfig)
     
-    from app.models import db
+    from src.models import db
     
     db.init_app(app)
     
