@@ -13,9 +13,6 @@ def run_app(config=AppConfig):
     from src.models import db
     
     db.init_app(app)
-    
-    with app.app_context():
-        db.create_all()
 
     return app
 
