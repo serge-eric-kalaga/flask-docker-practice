@@ -35,6 +35,12 @@ localhost:5000
 ~~~
 
 
+To run the project with Docker-Compose
+~~~bash 
+docker-compose up --build
+~~~
+
+
 
  
 # Congratulations! 👋  
